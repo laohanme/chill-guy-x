@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
     // config.infrastructureLogging = { debug: /PackFileCache/ };
     return config
   },
+  images: {
+    domains: ['*.traefik.me']
+  }
 }
 
 export default nextConfig
