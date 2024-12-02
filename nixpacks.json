@@ -13,8 +13,8 @@
         },
         "prisma": {
             "cmds": [
-                "pnpm dlx prisma db push --accept-data-loss",
-                "pnpm dlx prisma generate"
+                "npx prisma db push --accept-data-loss",
+                "npx prisma generate"
             ]
         },
         "build": {
